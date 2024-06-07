@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 app.use('/', createProxyMiddleware({
-  target: 'https://seu-github-site.github.io',
+  target: 'https://menu95.github.io/testepages/',
   changeOrigin: true,
   pathRewrite: {
     '^/': '/', // rewrite path
